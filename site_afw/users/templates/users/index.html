@@ -1,0 +1,74 @@
+{% extends 'base.html' %}
+{% load static %}
+
+{% block content %}
+    <section class="main_obj">
+        <div class="up_file container">
+            <div class="up_area">
+                <div class="up_area_file">
+                    <img class="up_area_file_svg" src="{% static 'img/up_file.svg' %}" alt="">
+                </div>
+                <h2>Перетащите сюда объект или нажмите на середину</h2>
+            </div>
+        </div>
+        <div class="oower"></div>
+    </section>
+    <section class="mini_guide">
+        <div class="ower">
+            <div class="guide_cont container_3">
+                <div class="areaAll1">
+                    <div class="dd">
+                        <div class="d1">
+                            <img src="{% static 'img/d1.svg' %}" alt="">
+                        </div>
+                        <div class="d2">
+                            <div class="cont_hierarchy">
+                                <h3>Уровни вложенности заголовков</h3>
+                                <ul class="hierarchy_elements">
+                                    <li class="hier_elem1">
+                                        <img class="color1" src="{% static 'img/svg_pen/cont_hierarchy/color1.jpg' %}" alt="">1 уровень заголовка
+                                    </li>
+                                    <li class="hier_elem2">
+                                        <img class="color2" src="{% static 'img/svg_pen/cont_hierarchy/color1.jpg' %}" alt="">2 уровень заголовка
+                                    </li>
+                                    <li class="hier_elem3">
+                                        <img class="color3" src="{% static 'img/svg_pen/cont_hierarchy/color1.jpg' %}" alt="">3 уровень заголовка
+                                    </li>
+                                    <li class="hier_elem4">
+                                        <img class="color4" src="{% static 'img/svg_pen/cont_hierarchy/color1.jpg' %}" alt="">4 уровень заголовка
+                                    </li>
+                                    <li class="hier_elem5">
+                                        <img class="color5" src="{% static 'img/svg_pen/cont_hierarchy/color1.jpg' %}" alt="">5 уровень заголовка
+                                    </li>
+                                </ul>
+                                <p>*Когда вы добавляете новый заголовок и подзаголовок, не забудьте пометить цветным маркером уровень его вложенности:&#41;</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="d3"></div>
+                </div>
+                <img id="arrow1" src="{% static 'img/svg_pen/arrow1.svg' %}" alt="">
+                <div class="areaAll2">
+                    <h3>Внимание</h3>
+                    <p>Проверьте файл перед загрузкой, чтобы случайно не загрузить ошибочный файл</p>
+                    <img src="{% static 'img/svg_pen/area_svg2.svg' %}" alt="">
+                </div>
+                <img id="arrow2" src="{% static 'img/svg_pen/arrow2.svg' %}" alt="">
+                <div class="areaAll3">
+                    <h3>Переместите файл для форматирования в область загрузки. Или нажмите на эту область, чтобы выбрать файл из проводника</h3>
+                    <img src="{% static 'img/svg_pen/area_svg3.svg' %}" alt="">
+                </div>
+                <img id="arrow3" src="{% static 'img/svg_pen/arrow3.svg' %}" alt="">
+                <div class="areaAll4">
+                    <h3>Загрузите готовый файл себе на компьютер</h3>
+                    <img src="{% static 'img/svg_pen/area_svg4.svg' %}" alt="">
+                    <p>*В области загрузки файла появится кнопка загрузить готовый файл. Нажмите на нее</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <div class="ij">
+        <img class="temas" src="{% static 'img/sun-svgrepo-com3.svg' %}" alt="">
+        <img class="teman" src="{% static 'img/moon-dark-theme-svgrepo-com.svg' %}" alt="">
+    </div>
+{% endblock %}
