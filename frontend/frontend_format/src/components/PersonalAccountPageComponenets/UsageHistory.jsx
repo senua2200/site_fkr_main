@@ -49,7 +49,7 @@ export const UsegeHistory = () => {
     
             const a = document.createElement('a');
             a.href = url;
-            a.download = fileName; // или любое другое имя
+            a.download = fileName; 
             document.body.appendChild(a);
             a.click();
             a.remove();
