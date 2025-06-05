@@ -1,0 +1,302 @@
+.video_use {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin: 30px 0 40px;
+}
+.video_use h2 {
+    font-weight: 600;
+    font-size: 44px;
+    max-width: 600px;
+    margin-bottom: 35px;
+    text-align: center;
+}
+.video_use_container {
+    border-radius: 30px;
+    background-color: #d8f0ff;
+    border: 3px solid #96cdfb;
+    width: 900px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 25px;
+    padding: 25px 0 20px;
+}
+.video_use_container h2 {
+    font-weight: 500;
+    font-size: 30px;
+    text-align: center;
+    margin-bottom: 0;
+}
+.video_use_container .video {
+    border-radius: 20px;
+    width: 450px;
+    height: 282px;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.video_use_container .video_alt{
+    border-radius: 20px;
+    width: 100%;
+    height: 282px;
+    object-fit: cover;
+}
+.video_use_container .video_play {
+    position: absolute;
+    top: 50%; 
+    left: 50%; 
+    transform: translate(-35%, -50%);
+    width: 75px;
+    height: 88px;
+}
+.links_video {
+    font-weight: 500;
+    font-size: 16px;
+    display: flex;
+    gap: 5px;
+    align-items: center;
+}
+.links_video a{
+    font-size: 20px;
+    color: #215cf3;
+    text-decoration: none;
+}
+.variants_use {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 50px;
+}
+.variants_use_container {
+    background-color: #d8f0ff;
+    border-radius: 30px;
+    border: 3px solid #96cdfb;
+    width: 1260px;
+    height: 1200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+.variants_use_container h2 {
+    font-weight: 700;
+    font-size: 36px;
+    max-width: 640px;
+    margin-bottom: 10px;
+}
+.standard_div {
+    border-radius: 30px;
+    background-color: #eaeef0;
+    border: 3px solid #96cdfb;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    max-width: 660px;
+    padding: 30px 60px;
+}
+.standard_div img {
+    width: 360px;
+    height: 258px;
+}
+.standard_div p {
+    font-weight: 500;
+    font-size: 20px;
+    text-align: justify;
+    max-width: 540px;
+}
+.castom_div {
+    border-radius: 30px;
+    background-color: #eaeef0;
+    border: 3px solid #96cdfb;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    max-width: 660px;
+    padding: 30px 60px;
+}
+.castom_div img {
+    width: 590px;
+    height: 360px;
+    border-radius: 20px;
+}
+.castom_div p {
+    font-weight: 500;
+    font-size: 20px;
+    text-align: justify;
+    max-width: 540px;
+}
+.comfort_use {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 50px;
+}
+.comfort_use_container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.comfort_use_container h2 {
+    font-weight: 600;
+    font-size: 44px;
+    max-width: 500px;
+    margin-bottom: 35px;
+}
+.facts {
+    display: flex;
+    flex-direction: column;
+    gap: 45px;
+    max-width: 1300px;
+}
+.fact {
+    border-radius: 30px;
+    background-color: #d8f0ff;
+    border: 3px solid #96cdfb;
+    width: 100%;
+    height: 500px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 60px;
+    padding: 0 100px;
+}
+/* .fact img {
+
+} */
+.zagotovka {
+    border-radius: 30px;
+    background-color: #96d7ff;
+    border: 3px solid #96cdfb;
+    min-width: 580px;
+    height: 400px;
+}
+.fact .text_content {
+    display: flex;
+    flex-direction: column;
+    height: 400px;
+}
+.fact .text_content h3 {
+    font-weight: 700;
+    font-size: 30px;
+    max-width: 420px;
+    margin-bottom: 50px;
+}
+.fact .text_content p {
+    font-weight: 600;
+    font-size: 20px;
+    text-align: justify;
+    max-width: 420px;
+    margin-bottom: 5px;
+}
+.fact .text_content .lll {
+    text-align: right;
+}
+.steps_use {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-bottom: 50px;
+}
+.steps_use h2 {
+    font-weight: 600;
+    font-size: 44px;
+    max-width: 660px;
+    text-align: center;
+    margin-bottom: 40px;
+}
+.steps_use_container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    width: 100%;
+    height: 920px;
+}
+.step_use {
+    font-weight: 600;
+    font-size: 28px;
+    border-radius: 30px;
+    background-color: #eaeef0;
+    border: 3px solid black;
+    width: 340px;
+    height: 170px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.step_use p {
+    width: 300px;
+    text-align: center;
+}
+.arrow_step {
+    width: 98px;
+    height: 58px;
+}
+/* .arrow_step_lr {
+
+}
+.arrow_step_rl {
+
+} */
+.steps_use_container .step_use:nth-child(1) {
+    position: absolute;
+    top: 0;
+    left: 300px;
+}
+.steps_use_container .step_use:nth-child(3) {
+    position: absolute;
+    top: 150px;
+    right: 300px;
+}
+.steps_use_container .step_use:nth-child(5) {
+    position: absolute;
+    top: 300px;
+    left: 300px;
+}
+.steps_use_container .step_use:nth-child(7) {
+    position: absolute;
+    top: 450px;
+    right: 300px;
+}
+.steps_use_container .step_use:nth-child(9) {
+    position: absolute;
+    top: 600px;
+    left: 300px;
+}
+.steps_use_container .step_use:nth-child(11) {
+    position: absolute;
+    top: 750px;
+    right: 300px;
+}
+.steps_use_container .arrow_step:nth-child(2) {
+    position: absolute;
+    top: 150px;
+}
+.steps_use_container .arrow_step:nth-child(4) {
+    position: absolute;
+    top: 300px;
+}
+.steps_use_container .arrow_step:nth-child(6) {
+    position: absolute;
+    top: 450px;
+}
+.steps_use_container .arrow_step:nth-child(8) {
+    position: absolute;
+    top: 600px;
+}
+.steps_use_container .arrow_step:nth-child(10) {
+    position: absolute;
+    top: 750px;
+}

@@ -1,0 +1,98 @@
+.support_page_main_content {
+    margin: 80px 0;
+    padding: 0 40px;
+    /* min-height: calc(100vh - 485px); */
+    min-height: calc(100vh - 370px);
+    display: flex;
+    justify-content: center;
+}
+.support_area {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 75px;
+}
+.faq_area { 
+    width: 300px;
+    height: 460px;
+    background-color: #D8F0FF;
+    border-radius: 30px;
+}
+.faq_area_header {
+    border-radius: 30px 30px 0 0;
+    width: 300px;
+    height: 80px;
+    background-color: #bee2ff;
+    font-weight: 600;
+    font-size: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.faq {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-left: 12px;
+    padding-top: 22px;
+}
+.faq ul{
+    display: flex;
+    flex-direction: column;
+    gap: 17px;
+    font-weight: 500;
+    font-size: 16px;
+    width: 248px;
+}
+.faq ul li{
+    padding-left: 6px;
+}
+.message_form_container {
+    border-radius: 30px;
+    width: 766px;
+    height: 460px;
+    background-color: #d8f0ff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.h3_form{
+    font-weight: 500;
+    font-size: 25px;
+    text-align: center;
+}
+.h3_form h3:nth-child(2){
+    margin-top: 4px;
+}
+.message_form_container form {
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 22px;
+}   
+.message_form_container form textarea{
+    background-color: #fbfbfb;
+    border: 1.50px solid #95cbf6;
+    border-radius: 20px;
+    width: 610px;
+    height: 240px;
+    padding: 10px 10px 0 10px;
+    resize: none;
+    outline: none;
+}
+.message_form_container form textarea::placeholder {
+    font-weight: 600;
+    font-size: 16px;
+    color: #a29797;
+}
+.message_form_container form button{
+    border-radius: 30px;
+    width: 160px;
+    height: 50px;
+    background-color: #bee2ff;
+    font-weight: 600;
+    font-size: 20px;
+    text-align: center;
+}
