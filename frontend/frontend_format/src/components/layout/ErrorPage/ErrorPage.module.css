@@ -9,27 +9,27 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    height: 570px;
-    width: 860px;
+    height: 460px;
+    width: 700px;
     border: 7px solid #74BEFB;
     border-radius: 20px;
     padding: 20px;
 }
 .error_img {
-    height: 196px;
-    width: 210px;
+    height: 146px;
+    width: 170px;
     margin-bottom: 28px;
 }
 .error_area h2 {
     font-weight: 700;
-    font-size: 54px;
+    font-size: 42px;
     margin-bottom: 18px;
     border-bottom: 6px solid #74BEFB;
     line-height: 1;
 }
 .error_area h3 {
     font-weight: 600;
-    font-size: 47px;
+    font-size: 32px;
     margin-bottom: 20px;
 }
 .error_area .text{
