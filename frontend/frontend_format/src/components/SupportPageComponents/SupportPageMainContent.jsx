@@ -68,7 +68,7 @@ export const SupportPageMainContent = () => {
                 </div>
                 <div className={styles.message_form_container}>
                     <div className={styles.h3_form}>
-                        <h3>Напишите вопрос, который вы хотите задать</h3>
+                        <h3>Напишите вопрос, который хотите задать</h3>
                         <h3>Мы постараемся ответить максимально быстро</h3>
                     </div>
                     <form onSubmit={handleSubmit}>
